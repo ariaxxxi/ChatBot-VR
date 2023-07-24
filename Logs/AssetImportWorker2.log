@@ -1,0 +1,1265 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.1f1 (3b70a0754835) revision 3895456'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 40652 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/ariax/Dropbox/AtomXR/A_Project/ChatUI
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+6769
+Successfully changed project path to: C:/Users/ariax/Dropbox/AtomXR/A_Project/ChatUI
+C:/Users/ariax/Dropbox/AtomXR/A_Project/ChatUI
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 53.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.1f1 (3b70a0754835)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ariax/Dropbox/AtomXR/A_Project/ChatUI/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti Laptop GPU (ID=0x24a0)
+    Vendor:   NVIDIA
+    VRAM:     8043 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002945 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 51.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.419 seconds
+Domain Reload Profiling:
+	ReloadAssembly (420ms)
+		BeginReloadAssembly (45ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (307ms)
+			LoadAssemblies (45ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (69ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (189ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (65ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002290 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ariax\Dropbox\AtomXR\A_Project\ChatUI\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\ariax\Dropbox\AtomXR\A_Project\ChatUI\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.731 seconds
+Domain Reload Profiling:
+	ReloadAssembly (732ms)
+		BeginReloadAssembly (176ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (479ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (155ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (205ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (132ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3265 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (112.1 KB). Loaded Objects now: 3728.
+Memory consumption went from 113.4 MB to 113.3 MB.
+Total: 2.480400 ms (FindLiveObjects: 0.168600 ms CreateObjectMapping: 0.076300 ms MarkObjects: 2.163300 ms  DeleteObjects: 0.071200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002312 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ariax\Dropbox\AtomXR\A_Project\ChatUI\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\ariax\Dropbox\AtomXR\A_Project\ChatUI\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.686 seconds
+Domain Reload Profiling:
+	ReloadAssembly (687ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (536ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (166ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (248ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3259 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (79.1 KB). Loaded Objects now: 3731.
+Memory consumption went from 113.3 MB to 113.2 MB.
+Total: 1.954900 ms (FindLiveObjects: 0.152800 ms CreateObjectMapping: 0.074000 ms MarkObjects: 1.670400 ms  DeleteObjects: 0.057100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002197 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ariax\Dropbox\AtomXR\A_Project\ChatUI\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\ariax\Dropbox\AtomXR\A_Project\ChatUI\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.670 seconds
+Domain Reload Profiling:
+	ReloadAssembly (670ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (521ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (159ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (240ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3259 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (78.9 KB). Loaded Objects now: 3734.
+Memory consumption went from 113.3 MB to 113.2 MB.
+Total: 2.113100 ms (FindLiveObjects: 0.164600 ms CreateObjectMapping: 0.096100 ms MarkObjects: 1.788000 ms  DeleteObjects: 0.063700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 355885.221721 seconds.
+  path: Assets/ChatUI/Prefabs/ChatUI.prefab
+  artifactKey: Guid(90539b7d6d1dc9b43b08b9ef0b9a3836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Prefabs/ChatUI.prefab using Guid(90539b7d6d1dc9b43b08b9ef0b9a3836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1f0d820b8f5ae7a70112e9e2b66726') in 0.039497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.449712 seconds.
+  path: Assets/ChatUI/Sounds/msg.wav
+  artifactKey: Guid(85228c4a06a66df4ea28fd8e441c9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Sounds/msg.wav using Guid(85228c4a06a66df4ea28fd8e441c9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da167df53c01848f311b0f48f5f9b0d') in 0.052208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 272.121271 seconds.
+  path: Assets/ChatUI/Scripts/OpenAIReply.cs
+  artifactKey: Guid(15de7e0d1101bab48a96ac7a7a5011f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Scripts/OpenAIReply.cs using Guid(15de7e0d1101bab48a96ac7a7a5011f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098a7d5a113a233eeaa35bff913310a0') in 0.006851 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002803 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ariax\Dropbox\AtomXR\A_Project\ChatUI\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\ariax\Dropbox\AtomXR\A_Project\ChatUI\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.688 seconds
+Domain Reload Profiling:
+	ReloadAssembly (689ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (536ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (165ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3259 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (79.7 KB). Loaded Objects now: 3747.
+Memory consumption went from 117.8 MB to 117.7 MB.
+Total: 2.234000 ms (FindLiveObjects: 0.158200 ms CreateObjectMapping: 0.074400 ms MarkObjects: 1.933500 ms  DeleteObjects: 0.066800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002376 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ariax\Dropbox\AtomXR\A_Project\ChatUI\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\ariax\Dropbox\AtomXR\A_Project\ChatUI\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.658 seconds
+Domain Reload Profiling:
+	ReloadAssembly (659ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (511ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (154ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (240ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3259 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (79.0 KB). Loaded Objects now: 3750.
+Memory consumption went from 117.8 MB to 117.7 MB.
+Total: 2.560500 ms (FindLiveObjects: 0.172100 ms CreateObjectMapping: 0.169200 ms MarkObjects: 2.143900 ms  DeleteObjects: 0.074400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003350 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ariax\Dropbox\AtomXR\A_Project\ChatUI\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\ariax\Dropbox\AtomXR\A_Project\ChatUI\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.714 seconds
+Domain Reload Profiling:
+	ReloadAssembly (715ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (558ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (172ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (254ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (163ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3259 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (78.9 KB). Loaded Objects now: 3753.
+Memory consumption went from 117.8 MB to 117.7 MB.
+Total: 2.214800 ms (FindLiveObjects: 0.161000 ms CreateObjectMapping: 0.083800 ms MarkObjects: 1.908200 ms  DeleteObjects: 0.060900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003246 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ariax\Dropbox\AtomXR\A_Project\ChatUI\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\ariax\Dropbox\AtomXR\A_Project\ChatUI\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.677 seconds
+Domain Reload Profiling:
+	ReloadAssembly (677ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (526ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (159ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (244ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3259 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (79.0 KB). Loaded Objects now: 3756.
+Memory consumption went from 117.8 MB to 117.7 MB.
+Total: 2.135600 ms (FindLiveObjects: 0.163400 ms CreateObjectMapping: 0.077100 ms MarkObjects: 1.836700 ms  DeleteObjects: 0.057500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 696.245639 seconds.
+  path: Assets/ChatUI/Scripts/testGUI.cs
+  artifactKey: Guid(f68f5036fdc9be340b07aea518c9bdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Scripts/testGUI.cs using Guid(f68f5036fdc9be340b07aea518c9bdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483c891a1bf83f49e9ab62f1b16b9be7') in 0.008284 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001978 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ariax\Dropbox\AtomXR\A_Project\ChatUI\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\ariax\Dropbox\AtomXR\A_Project\ChatUI\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.688 seconds
+Domain Reload Profiling:
+	ReloadAssembly (688ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (532ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (171ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (239ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3258 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (79.0 KB). Loaded Objects now: 3758.
+Memory consumption went from 117.8 MB to 117.7 MB.
+Total: 2.119500 ms (FindLiveObjects: 0.265800 ms CreateObjectMapping: 0.073100 ms MarkObjects: 1.724200 ms  DeleteObjects: 0.055800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 50.820169 seconds.
+  path: Assets/ChatUI/Images/Sprites/arrowLeft.png
+  artifactKey: Guid(63a962cc5e5871f4c89bde6486915ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Sprites/arrowLeft.png using Guid(63a962cc5e5871f4c89bde6486915ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48ea14d44a391885bfb93da094a15f1') in 0.053438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001952 seconds.
+  path: Assets/ChatUI/Images/Emoji/2.png
+  artifactKey: Guid(0228d7644ca8c984d8331a17b93e9f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Emoji/2.png using Guid(0228d7644ca8c984d8331a17b93e9f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7b3e90fce9d16ad78095d9627fca27') in 0.015385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002693 seconds.
+  path: Assets/ChatUI/Images/Faces/OpenAI.png
+  artifactKey: Guid(602f6dae12616224ba9dea679779ae2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Faces/OpenAI.png using Guid(602f6dae12616224ba9dea679779ae2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d188ff446c8f2fbe2aa137c88b4e1d') in 0.015820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002112 seconds.
+  path: Assets/ChatUI/Images/Sprites/bg.png
+  artifactKey: Guid(a647ba7a244fc8b4bbbc9bd01adecc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Sprites/bg.png using Guid(a647ba7a244fc8b4bbbc9bd01adecc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc8646d14673f63cd5983d425466ec4') in 0.062841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Fonts/Monterser
+  artifactKey: Guid(149c4aab864c0804ba619f7f6a57eb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Monterser using Guid(149c4aab864c0804ba619f7f6a57eb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88aff911ef9587ba423b8ac82b8b5bfa') in 0.004464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002917 seconds.
+  path: Assets/ChatUI/Images/Sprites
+  artifactKey: Guid(24b166fccde043642a4a9c2d23d3c18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Sprites using Guid(24b166fccde043642a4a9c2d23d3c18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c35f3b083f84009cb72c507f54a8566') in 0.005047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001642 seconds.
+  path: Assets/ChatUI/Scripts/ChatUI.cs
+  artifactKey: Guid(af9c79c6d5c014546a24a611e730c7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Scripts/ChatUI.cs using Guid(af9c79c6d5c014546a24a611e730c7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda6e8146744490dbf3ee9c6088b99a7') in 0.001293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004365 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs
+  artifactKey: Guid(f7cfa58e417a46ea8889989684c2522e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs using Guid(f7cfa58e417a46ea8889989684c2522e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221b95223e6e6fa29bf3f443677e02d1') in 0.004092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001644 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs
+  artifactKey: Guid(1a7eb92a01ed499a987bde9def05fbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs using Guid(1a7eb92a01ed499a987bde9def05fbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539a161431924acd5c873b74ea7904d2') in 0.005257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001321 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs
+  artifactKey: Guid(21256c5b62f346f18640dad779911e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs using Guid(21256c5b62f346f18640dad779911e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a938fb8ece043e7ece983a9bc31d98b') in 0.003906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001741 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs
+  artifactKey: Guid(d412675cfb3441efa3bf8dcd9b7624dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs using Guid(d412675cfb3441efa3bf8dcd9b7624dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ddff623e5f1314671e5a92240b94a2a') in 0.005195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001719 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3b349eadf44fb0a807a3294033e537') in 0.005517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002222 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras
+  artifactKey: Guid(a0022ef57071e634a8f5657371cbbe91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras using Guid(a0022ef57071e634a8f5657371cbbe91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815289df0362f9594954d6bc74a27390') in 0.005042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001871 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs
+  artifactKey: Guid(a4b6f99e8bc54541bbd149b014ff441c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs using Guid(a4b6f99e8bc54541bbd149b014ff441c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ce2e89c2ae40075480c37a7ef4dd43') in 0.005267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002020 seconds.
+  path: Assets/TextMesh Pro/Fonts/Monterser/Montserrat-BoldItalic.ttf
+  artifactKey: Guid(6b12eab084cdbe244ba79a455aef811c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Monterser/Montserrat-BoldItalic.ttf using Guid(6b12eab084cdbe244ba79a455aef811c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f2db934b5f3110c630e2b492e2ffcf') in 0.034114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001092 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs
+  artifactKey: Guid(e32c266ee6204b21a427753cb0694c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs using Guid(e32c266ee6204b21a427753cb0694c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9372a0a5eff38e575fd0e402099a48ea') in 0.004866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002323 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs
+  artifactKey: Guid(6f2c5b59b6874405865e2616e4ec276a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs using Guid(6f2c5b59b6874405865e2616e4ec276a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41e09d19996d365b53ccdc55d5753bb') in 0.005339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001621 seconds.
+  path: Assets/ChatUI/Scripts/ChatItem.cs
+  artifactKey: Guid(ced7b7bd2c5bc53469bd6287ca62c93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Scripts/ChatItem.cs using Guid(ced7b7bd2c5bc53469bd6287ca62c93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c4bb9f12e60e683ba1551207567933') in 0.003871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002469 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs
+  artifactKey: Guid(686ec78b56aa445795335fbadafcfaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs using Guid(686ec78b56aa445795335fbadafcfaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9206071a9a330861c55f91117591bc43') in 0.005061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001294 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
+  artifactKey: Guid(53d91f98a2664f5cb9af11de72ac54ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs using Guid(53d91f98a2664f5cb9af11de72ac54ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af88929a2236e44d5963a83bee867bf9') in 0.004839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001493 seconds.
+  path: Assets/TextMesh Pro/Fonts/Monterser/Montserrat-Light.ttf
+  artifactKey: Guid(03f685adf87118d4db8fbd07e4be7692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Monterser/Montserrat-Light.ttf using Guid(03f685adf87118d4db8fbd07e4be7692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee7b8da477273ec892e039e7a150a5e') in 0.013397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ChatUI/Images/Icons
+  artifactKey: Guid(d49049e2a2314bc45aa73c0720842e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Icons using Guid(d49049e2a2314bc45aa73c0720842e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c816e29942bf8f8f8e7f9d6a77a7394d') in 0.003490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001889 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab
+  artifactKey: Guid(b06f0e6c1dfa4356ac918da1bb32c603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab using Guid(b06f0e6c1dfa4356ac918da1bb32c603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab54091714b50432e66c6aa48106e04') in 0.032023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001486 seconds.
+  path: Assets/TextMesh Pro/Fonts/Monterser/Montserrat-ExtraBoldItalic.ttf
+  artifactKey: Guid(c0e8e52dee130034b9ddea80dc0bfb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Monterser/Montserrat-ExtraBoldItalic.ttf using Guid(c0e8e52dee130034b9ddea80dc0bfb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1aff98cd0b89f3ef4a8cdfbd8c1b75') in 0.013669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001812 seconds.
+  path: Assets/ChatUI/Images/Emoji/5.png
+  artifactKey: Guid(3b10e96393f9b9746b08a54bedaa6bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Emoji/5.png using Guid(3b10e96393f9b9746b08a54bedaa6bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5e222a23e396fb4cb5c82276a4348f') in 0.012610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001816 seconds.
+  path: Assets/ChatUI/Images/Sprites/arrowRight.png
+  artifactKey: Guid(ce7bbcae98f18e64984cecf6379ffb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Sprites/arrowRight.png using Guid(ce7bbcae98f18e64984cecf6379ffb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af0c13b6ac2f3de4eb061732e7bdd20') in 0.011917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001936 seconds.
+  path: Assets/ChatUI/Images/Photos/Glod.png
+  artifactKey: Guid(5a65afebd106d4a43983d1a0d5400365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Photos/Glod.png using Guid(5a65afebd106d4a43983d1a0d5400365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5dbb125807278aa1561652fccdc89c9') in 0.027624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002011 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs
+  artifactKey: Guid(24b0dc2d1d494adbbec1f4db26b4cf83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs using Guid(24b0dc2d1d494adbbec1f4db26b4cf83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efa5ab51b44a75c10de456a93fefb86') in 0.004019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001853 seconds.
+  path: Assets/TextMesh Pro/Fonts/Monterser/Montserrat-Black.ttf
+  artifactKey: Guid(db355373a0820b44996a94cd48f453d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Monterser/Montserrat-Black.ttf using Guid(db355373a0820b44996a94cd48f453d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e139ee28c74ca0a8e22763fb4fc4ae84') in 0.012425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001819 seconds.
+  path: Assets/TextMesh Pro/Fonts/Monterser/Montserrat-ThinItalic.ttf
+  artifactKey: Guid(3416451f52324f041a3ad2f47dfcf77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Monterser/Montserrat-ThinItalic.ttf using Guid(3416451f52324f041a3ad2f47dfcf77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0acea75720cd1215b4d90619924a6fa9') in 0.013526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006154 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs
+  artifactKey: Guid(103e0a6a1d404693b9fb1a5173e0e979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs using Guid(103e0a6a1d404693b9fb1a5173e0e979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75fb309fa7b2be5f043c34065c0ce5ff') in 0.005312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002519 seconds.
+  path: Assets/TextMesh Pro/Fonts/Monterser/Montserrat-ExtraLightItalic.ttf
+  artifactKey: Guid(47fe969a7c8b23444bd23f8dc1f49e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Monterser/Montserrat-ExtraLightItalic.ttf using Guid(47fe969a7c8b23444bd23f8dc1f49e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e097a5ee8fdcc527d7297d22294bc60') in 0.013846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001622 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs
+  artifactKey: Guid(790744c462254b7ba8038e6ed28b3db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs using Guid(790744c462254b7ba8038e6ed28b3db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bcaec4ed97c90a9182ca36c708dbc1') in 0.005502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001911 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs
+  artifactKey: Guid(43bcd35a1c0c40ccb6d472893fe2093f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs using Guid(43bcd35a1c0c40ccb6d472893fe2093f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6369446f419e84ec965084b8b9205252') in 0.004219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000916 seconds.
+  path: Assets/ChatUI/Images/Emoji
+  artifactKey: Guid(7b01e7daf23e1064481373e176a92a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Emoji using Guid(7b01e7daf23e1064481373e176a92a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eaabd8d3bc3b57485974b4547c79eb5') in 0.005530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002862 seconds.
+  path: Assets/ChatUI/Images/Photos/Shadow.png
+  artifactKey: Guid(c6eedb26340b3ca49935db9a29d1fcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Photos/Shadow.png using Guid(c6eedb26340b3ca49935db9a29d1fcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7416bdc29c647d01f9d694f5f349ef97') in 0.024518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002404 seconds.
+  path: Assets/ChatUI/Images/Icons/IconPhoto.png
+  artifactKey: Guid(7a4e66b16d00a0a4e90ad5fe800fe41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Icons/IconPhoto.png using Guid(7a4e66b16d00a0a4e90ad5fe800fe41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a53cd34fb5b0431ac969f93725886c2') in 0.012212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001819 seconds.
+  path: Assets/ChatUI/Images/Emoji/9.png
+  artifactKey: Guid(5ecaa4691e2415f448945ad78368b52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Emoji/9.png using Guid(5ecaa4691e2415f448945ad78368b52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5e1b686ae6021e685b2e6e713c235a') in 0.013425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002077 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs
+  artifactKey: Guid(a73109742c8d47ac822895a473300c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs using Guid(a73109742c8d47ac822895a473300c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533febee68d9354dff80f08964fe19c3') in 0.004236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010776 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs
+  artifactKey: Guid(2ed57967c52645d390a89dcf8f61ba73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs using Guid(2ed57967c52645d390a89dcf8f61ba73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0554be98db39fd72e44a07abbf54fdb6') in 0.004910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001741 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs
+  artifactKey: Guid(dc20866c0d5e413ab7559440e15333ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs using Guid(dc20866c0d5e413ab7559440e15333ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e455162ceab022f7c1b8170743427395') in 0.005058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials
+  artifactKey: Guid(2b4f40b667e9b5445ba086d3b8678a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials using Guid(2b4f40b667e9b5445ba086d3b8678a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b646a84f0991fe67d56693e68223f49c') in 0.005149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003947 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs
+  artifactKey: Guid(a4d4c76e63944cba8c7d00f56334b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs using Guid(a4d4c76e63944cba8c7d00f56334b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df67c2875ce029e41db03955cb7ac0d0') in 0.004050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001919 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a571301edaf3ef31f347c8859d10fb7') in 0.007181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001644 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs
+  artifactKey: Guid(76c11bbcfddf44e0ba17d6c2751c8d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs using Guid(76c11bbcfddf44e0ba17d6c2751c8d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11fe1a21799b06bb11587c11e31309b4') in 0.003702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/ChatUI/Images/Photos
+  artifactKey: Guid(d2098327483ad6c4db798f68957dfb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Photos using Guid(d2098327483ad6c4db798f68957dfb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b031d8810b93002b9a844bd2b84430b0') in 0.005628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001706 seconds.
+  path: Assets/ChatUI/Images/Sprites/tag.png
+  artifactKey: Guid(c5e03cee9de75824b9020ecf2e078cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Sprites/tag.png using Guid(c5e03cee9de75824b9020ecf2e078cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f11d705943ebe05c3bc2a7a71a95713') in 0.016957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001937 seconds.
+  path: Assets/TextMesh Pro/Fonts/Monterser/Montserrat-Medium.ttf
+  artifactKey: Guid(903712ed33a0a8d4ea4a9caa8aec7ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Monterser/Montserrat-Medium.ttf using Guid(903712ed33a0a8d4ea4a9caa8aec7ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4aced8bb954589e14293ad7f7a48692') in 0.013936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002156 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78cec851bd060a911c667e816f8fe415') in 0.026562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001547 seconds.
+  path: Assets/ChatUI/Images/Photos/snow.png
+  artifactKey: Guid(9ced326867a82204083ae624104e0d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Photos/snow.png using Guid(9ced326867a82204083ae624104e0d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84126d568c3f32862a148e0b9629d4b') in 0.030536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002417 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs
+  artifactKey: Guid(4f19c7f94c794c5097d8bd11e39c750d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs using Guid(4f19c7f94c794c5097d8bd11e39c750d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f2d063544d41d8a6fdaa4a16b57de0') in 0.005456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003404 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs
+  artifactKey: Guid(52ec835d14bd486f900952b77698b7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs using Guid(52ec835d14bd486f900952b77698b7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b0d5fac412fc09de5809cb4e1c30da') in 0.006107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002304 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs
+  artifactKey: Guid(9eff140b25d64601aabc6ba32245d099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs using Guid(9eff140b25d64601aabc6ba32245d099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7322979e1c5d2ee0434d18a487d587') in 0.005391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001528 seconds.
+  path: Assets/ChatUI/Scenes/Atom_Chat.unity
+  artifactKey: Guid(67651138e270a1949b7197cba1b8e8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Scenes/Atom_Chat.unity using Guid(67651138e270a1949b7197cba1b8e8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b23aa1c9c2f9eaa4f3b4111a19fb637') in 0.002278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001543 seconds.
+  path: Assets/ChatUI/Images/Photos/StarrySky.png
+  artifactKey: Guid(59173f0f2742af649845c30f27d4bd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Photos/StarrySky.png using Guid(59173f0f2742af649845c30f27d4bd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6c858f775e7e4c106a6a00d9497e48') in 0.042043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002296 seconds.
+  path: Assets/ChatUI/Images/Emoji/8.png
+  artifactKey: Guid(28e29e22a71e9b6428e14226bcb6df1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Emoji/8.png using Guid(28e29e22a71e9b6428e14226bcb6df1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb056085b8ad3e0355d636eea8f3306') in 0.013487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005524 seconds.
+  path: Assets/ChatUI/Images/Icons/IconSprite.png
+  artifactKey: Guid(68140e2d2e201f14f93dad28f01c1610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Icons/IconSprite.png using Guid(68140e2d2e201f14f93dad28f01c1610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6529c50ae6a91f4420598ca8c4dc7a36') in 0.012517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005069 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs
+  artifactKey: Guid(f970ea55f9f84bf79b05dab180b8c125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs using Guid(f970ea55f9f84bf79b05dab180b8c125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96147c38bd00eb4200317c0e69415a97') in 0.004724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007960 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs
+  artifactKey: Guid(ac1eb05af6d391b4eb0f4c070a99f1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs using Guid(ac1eb05af6d391b4eb0f4c070a99f1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33c7ae267d5c64f11814925d4a05fe6') in 0.005222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000582 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.004841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001654 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs
+  artifactKey: Guid(e4e0d9ccee5f4950be8979268c9014e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs using Guid(e4e0d9ccee5f4950be8979268c9014e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157cea029cbd98254fbdc7f99028a9c3') in 0.005597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001390 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs
+  artifactKey: Guid(2787a46a4dc848c1b4b7b9307b614bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs using Guid(2787a46a4dc848c1b4b7b9307b614bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76fc1e9bfc6d1422e6093f0d73195e74') in 0.005822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001453 seconds.
+  path: Assets/ChatUI/Images/Emoji/10.png
+  artifactKey: Guid(3edc325a0d4e577498ec99601b1159cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Emoji/10.png using Guid(3edc325a0d4e577498ec99601b1159cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4de3737aeb6afea9adc769597a552b5') in 0.012875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001893 seconds.
+  path: Assets/TextMesh Pro/Fonts/Monterser/Montserrat-SemiBoldItalic.ttf
+  artifactKey: Guid(0c365058645400047bc8fc9068b4ba38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Monterser/Montserrat-SemiBoldItalic.ttf using Guid(0c365058645400047bc8fc9068b4ba38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7392a047c8fa1d4db708f276d1bdefb') in 0.012430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001129 seconds.
+  path: Assets/TextMesh Pro/Fonts/Monterser/Montserrat-Thin.ttf
+  artifactKey: Guid(fd6925a3891e97248b817f86a799de91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Monterser/Montserrat-Thin.ttf using Guid(fd6925a3891e97248b817f86a799de91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac6e8b4c1829c5b835cd22b51f52bdb') in 0.014368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001550 seconds.
+  path: Assets/ChatUI/Images/Emoji/1.png
+  artifactKey: Guid(1ec6ff4bcef81d4429d0965875df7803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Emoji/1.png using Guid(1ec6ff4bcef81d4429d0965875df7803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ad7d6759c58544612772c839ab5021') in 0.014204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005150 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ccaa32d8e5c1de03c07a5412c8c3c') in 0.005886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001556 seconds.
+  path: Assets/TextMesh Pro/Fonts/Monterser/Montserrat-Regular.ttf
+  artifactKey: Guid(bfe12d8e5075ddc4fa74f36d1a778126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Monterser/Montserrat-Regular.ttf using Guid(bfe12d8e5075ddc4fa74f36d1a778126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63c75fa918fa29a1dd16095857d0164') in 0.013863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001240 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs
+  artifactKey: Guid(2d687537154440a3913a9a3c7977978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs using Guid(2d687537154440a3913a9a3c7977978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a80d9585d02ee2bea9929fc0cefecf') in 0.004137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/ChatUI/Images/Faces
+  artifactKey: Guid(d9f848d1b95dfe6418ca459aec3b83ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Faces using Guid(d9f848d1b95dfe6418ca459aec3b83ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3220ffbefb4217913efc7eb7defd203') in 0.004160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002918 seconds.
+  path: Assets/TextMesh Pro/Fonts/Monterser/Montserrat-ExtraBold.ttf
+  artifactKey: Guid(14acf4582d8ffd3428d836bafab331e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Monterser/Montserrat-ExtraBold.ttf using Guid(14acf4582d8ffd3428d836bafab331e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd8e3be0d4538d4d883b158202cc4c2') in 0.012543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001886 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62edbac62d102a6b60efa256f99472c8') in 0.015037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001568 seconds.
+  path: Assets/ChatUI/Images/Emoji/4.png
+  artifactKey: Guid(147bf4e5e30598b4e88f0eae8b75bd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Emoji/4.png using Guid(147bf4e5e30598b4e88f0eae8b75bd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75f075843d6b76e3a893790326c02d4') in 0.013748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007565 seconds.
+  path: Assets/ChatUI/Images/Sprites/CircleMask.png
+  artifactKey: Guid(32bf292728c861648babafde34c2d204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Sprites/CircleMask.png using Guid(32bf292728c861648babafde34c2d204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bed791d9a0c1710db069c12a8d0160') in 0.014211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004249 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts
+  artifactKey: Guid(57d601c49ab69004cbb533bfa1564cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts using Guid(57d601c49ab69004cbb533bfa1564cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c32566f214f6760a5c8aae71c98c6d') in 0.001389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001357 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs
+  artifactKey: Guid(83680ab1a69f4102ac67d1459fe76e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs using Guid(83680ab1a69f4102ac67d1459fe76e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c962d3bfb7e0d7e59d2363b129e210a3') in 0.005752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002515 seconds.
+  path: Assets/TextMesh Pro/Fonts/Monterser/Montserrat-Bold.ttf
+  artifactKey: Guid(15aa687c23147c943830f724efd39cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Monterser/Montserrat-Bold.ttf using Guid(15aa687c23147c943830f724efd39cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238f4722bdfb293be3c8dce63fd805c9') in 0.014644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000524 seconds.
+  path: Assets/TextMesh Pro/Resources
+  artifactKey: Guid(3b937070a49f8e9469311b08177be307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources using Guid(3b937070a49f8e9469311b08177be307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006da76a6f3d5e865a1c7d2c33d007d1') in 0.005597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001724 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs
+  artifactKey: Guid(d736ce056cf444ca96e424f4d9c42b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs using Guid(d736ce056cf444ca96e424f4d9c42b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589adbbcf7c07aa6cc231ba5dc5ff2a7') in 0.004324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002790 seconds.
+  path: Assets/ChatUI/Images/Emoji/3.png
+  artifactKey: Guid(5f8cd951b8348264cb16f88544c5d473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Emoji/3.png using Guid(5f8cd951b8348264cb16f88544c5d473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a589ca90a60608361b8a32cb4b77e097') in 0.013791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002153 seconds.
+  path: Assets/ChatUI/Images/Icons/IconText.png
+  artifactKey: Guid(47b78281edb3a1442a999ea329f0f7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Icons/IconText.png using Guid(47b78281edb3a1442a999ea329f0f7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8867657f7cb25ce680efccfeea6340') in 0.014898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002274 seconds.
+  path: Assets/ChatUI/Images/Photos/t2.png
+  artifactKey: Guid(6331f2eb9500795469acffe043470b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Photos/t2.png using Guid(6331f2eb9500795469acffe043470b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefaee9ef32ca1f3a86c856810a061e0') in 0.023324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001556 seconds.
+  path: Assets/ChatUI/Images/Emoji/7.png
+  artifactKey: Guid(637c35332b34ef4429f506813011af30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Emoji/7.png using Guid(637c35332b34ef4429f506813011af30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc06473c7629dc2b62a4f6800db9c3b3') in 0.014362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs
+  artifactKey: Guid(ca88df0f7522db848b8429246aa224e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs using Guid(ca88df0f7522db848b8429246aa224e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d7a042b12468ebe43e1511f14f9383') in 0.006048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001770 seconds.
+  path: Assets/ChatUI/Images/Faces/Face2.png
+  artifactKey: Guid(a6800f2701fa4d94695d4d7de17aab25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Faces/Face2.png using Guid(a6800f2701fa4d94695d4d7de17aab25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ffe64da6018a9f661814daea1a7786') in 0.017607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002288 seconds.
+  path: Assets/TextMesh Pro/Fonts/Monterser/Montserrat-Italic.ttf
+  artifactKey: Guid(57b13a302acd30444a0f17e2c037db17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Monterser/Montserrat-Italic.ttf using Guid(57b13a302acd30444a0f17e2c037db17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78633f2e0938b5c983c3ec7de7ad8e3') in 0.013189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004574 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(e2be6a553c1c30141b27037c9cab30b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(e2be6a553c1c30141b27037c9cab30b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269565c2fb0c16fddf0e026029661a2d') in 0.004282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001877 seconds.
+  path: Assets/ChatUI/Images/Sprites/tag1.png
+  artifactKey: Guid(6e93a70c8c8a2a149bf0addb3e980fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Sprites/tag1.png using Guid(6e93a70c8c8a2a149bf0addb3e980fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a042aa92d28638e3bc9f800d8a8921') in 0.012795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003651 seconds.
+  path: Assets/TextMesh Pro/Fonts/Monterser/Montserrat-SemiBold.ttf
+  artifactKey: Guid(b0449273d30a2aa47b874400e8e77892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Monterser/Montserrat-SemiBold.ttf using Guid(b0449273d30a2aa47b874400e8e77892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d89515c9d47613120c6b07a076cedf0') in 0.014456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001086 seconds.
+  path: Assets/ChatUI/Images/Emoji/6.png
+  artifactKey: Guid(2699524580429364b8db3c8b07ed04fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Emoji/6.png using Guid(2699524580429364b8db3c8b07ed04fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f942e0cd3b1490f254c3e4655eac3a') in 0.013111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001834 seconds.
+  path: Assets/ChatUI/UIimg
+  artifactKey: Guid(cde7fc18aa2fbe7478b4c4e73a7764e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/UIimg using Guid(cde7fc18aa2fbe7478b4c4e73a7764e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5152850a9f01ce80fbaf6edb179ef3c') in 0.005350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001774 seconds.
+  path: Assets/TextMesh Pro/Fonts/Monterser/Montserrat-BlackItalic.ttf
+  artifactKey: Guid(00e1d11e736bdb845ac7d477817ba7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Monterser/Montserrat-BlackItalic.ttf using Guid(00e1d11e736bdb845ac7d477817ba7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb2f610388a430ed6c5004d2319f0b5') in 0.014159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000999 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs
+  artifactKey: Guid(8ef7be1c625941f7ba8ed7cc71718c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs using Guid(8ef7be1c625941f7ba8ed7cc71718c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46bc654e6b0ff88905b4875d078ea6b2') in 0.005720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ChatUI/Prefabs
+  artifactKey: Guid(c1c9d7047e15d0746a2d6e04174cece8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Prefabs using Guid(c1c9d7047e15d0746a2d6e04174cece8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2ddbd120dab021603cf29e19d6d76b') in 0.001157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001398 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs
+  artifactKey: Guid(a05dcd8be7ec4ccbb35c26219884aa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs using Guid(a05dcd8be7ec4ccbb35c26219884aa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c653aac9a94393f2b5467f7fed605abb') in 0.006351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001958 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs
+  artifactKey: Guid(c3c1afeda5e545e0b19add5373896d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs using Guid(c3c1afeda5e545e0b19add5373896d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570c68aa9c56e0aaa14c0ddf913db33d') in 0.006301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001312 seconds.
+  path: Assets/ChatUI/Images/Photos/Metal.png
+  artifactKey: Guid(c24cc20758a56d64ba913b650d20b503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Photos/Metal.png using Guid(c24cc20758a56d64ba913b650d20b503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ef802fd4b9594456c0e1e44fa33763') in 0.026804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001226 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs
+  artifactKey: Guid(91b8ba3d52e041fab2d0e0f169855539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs using Guid(91b8ba3d52e041fab2d0e0f169855539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11054d446b4604af53088b318320de48') in 0.006014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/ChatUI/Sounds
+  artifactKey: Guid(6898ab839e344ed42add54b0cbd793e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Sounds using Guid(6898ab839e344ed42add54b0cbd793e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b724b589213b0e2cc21a367923aed488') in 0.004416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001556 seconds.
+  path: Assets/TextMesh Pro/Fonts/Monterser/Montserrat-LightItalic.ttf
+  artifactKey: Guid(47ed8162a683ab24795255ec5a49aafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Monterser/Montserrat-LightItalic.ttf using Guid(47ed8162a683ab24795255ec5a49aafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0233e15b0fea063bcc0839b576b8cb') in 0.014295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/TextMesh Pro/Fonts
+  artifactKey: Guid(f00c670ade2c77c41a48210bca1d6254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts using Guid(f00c670ade2c77c41a48210bca1d6254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09eea21305b3f93492b8d612cd77c3f6') in 0.005401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001450 seconds.
+  path: Assets/ChatUI/Images
+  artifactKey: Guid(c18a3eb3eca0e9a4f90cd81ebb827fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images using Guid(c18a3eb3eca0e9a4f90cd81ebb827fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648dc76c2a666253431347e01e1384c8') in 0.003631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001868 seconds.
+  path: Assets/ChatUI/Images/Photos/PearlEarring.png
+  artifactKey: Guid(56cf4bd20597faa4eb38656976d73d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Photos/PearlEarring.png using Guid(56cf4bd20597faa4eb38656976d73d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810dd8352f14109059a98c64ac2b2819') in 0.027911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001821 seconds.
+  path: Assets/TextMesh Pro/Fonts/Monterser/Montserrat-MediumItalic.ttf
+  artifactKey: Guid(97d5ae6596c3fad46951ebffa14358b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/Monterser/Montserrat-MediumItalic.ttf using Guid(97d5ae6596c3fad46951ebffa14358b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c360fbac1edf0d7ed2545fb917b861') in 0.014089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001307 seconds.
+  path: Assets/ChatUI/Images/Faces/Face1.png
+  artifactKey: Guid(2e1102acd3a1ade4baaa5b9bf4f66fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatUI/Images/Faces/Face1.png using Guid(2e1102acd3a1ade4baaa5b9bf4f66fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af44d79a35803b91c5d37e28f38e40c') in 0.017595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008100 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs
+  artifactKey: Guid(e8538afcddc14efbb5d9e94b7ae50197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs using Guid(e8538afcddc14efbb5d9e94b7ae50197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3941698994e8bc7d8289634dddaa248') in 0.004212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001231 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs
+  artifactKey: Guid(1312ae25639a4bae8e25ae223209cc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs using Guid(1312ae25639a4bae8e25ae223209cc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013b2c829f26af8554e5563758e40357') in 0.004958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001726 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e85d55384b22641579099d0f1ce7e8') in 0.013714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Shaders
+  artifactKey: Guid(4125ff84402920d4ebf97093af55fc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders using Guid(4125ff84402920d4ebf97093af55fc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993ec60b8ac7021eac0ff3f8f6c2b803') in 0.004859 seconds 
